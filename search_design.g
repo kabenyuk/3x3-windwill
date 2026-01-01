@@ -17,16 +17,12 @@ Solve3x3 := function()
     blocks := [];
 
     # Initial seed
-    seed := [
-        [1, 2, 3], [1, 4, 5], [1, 6, 7], 
-        [2, 8, 9], [2, 10, 11],
-        [3, 12, 13], [3, 14, 15], 
-        [4, 16, 17], [4, 18, 19]
-    ];
+    seed := []; 
     
-    # To search from scratch (empty seed), uncomment the line below:
-    seed := [];
-
+    # If you want to start with a specific partial seed, simply replace seed := []; with seed : = [...];, 
+    # where you list the initial blocks separated by commas inside the brackets.
+    # For example seed := [ [1, 2, 3], [1, 4, 5], [1, 6, 7] ];
+    
     # Apply Seed
     for t in seed do
         Add(blocks, t);
