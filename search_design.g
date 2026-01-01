@@ -25,7 +25,7 @@ Solve3x3 := function()
     ];
     
     # To search from scratch (empty seed), uncomment the line below:
-    # seed := [];
+    seed := [];
 
     # Apply Seed
     for t in seed do
