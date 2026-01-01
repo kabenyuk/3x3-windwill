@@ -26,7 +26,9 @@ We construct a set of blocks of the form $B=(a,b,c)$, with $a<b<c$, on the set $
 The process stops when $19$ blocks are constructed and all quotas are zero.
 
 ## Usage
+You can run the algorithm using either **GAP** or **Python**.
 
+### Option 1: GAP System
 ### Prerequisites
 You need the **GAP System** (Groups, Algorithms, Programming) installed on your computer.
 [Download GAP here](https://www.gap-system.org/Download/index.html).
@@ -38,3 +40,17 @@ You need the **GAP System** (Groups, Algorithms, Programming) installed on your 
 
 ```gap
 gap> Read("/path/to/your/search_design.g");
+```
+### Option 2: Python
+
+### Prerequisites
+Python 3.x installed.
+
+### Running the Code
+1. Download the file search_design.py from this repository.
+2. Open your terminal (command prompt).
+3. Run the script:
+`python3 search_design.py`
+
+### Output
+Both scripts will output the execution time and the list of 19 blocks if a solution is found.
